@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editRecipeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Recipe Name"
+        android:inputType="text"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editRecipeIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingredients"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/editRecipeSteps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Steps"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Recipe"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Recipe"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/white" />
+</LinearLayout>

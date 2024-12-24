@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Recipe Manager</string>
+    <string-array name="recipe_categories">
+        <item>Makanan</item>
+        <item>Minuman</item>
+        <item>Dessert</item>
+    </string-array>
+</resources>
